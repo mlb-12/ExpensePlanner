@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trial.signupController">
+    <children>
+        <AnchorPane prefHeight="400.0" prefWidth="270.0" style="-fx-background-color: linear-gradient(from 0% 0% to 100% 0%, #0D47A1, #00ACC1);">
+            <children>
+                <Label layoutX="21.0" layoutY="53.0" text="Expense Tracker" textFill="WHITE">
+                    <font>
+                        <Font name="Arial Black" size="24.0" />
+                    </font>
+                </Label>
+                <ImageView blendMode="OVERLAY" fitHeight="150.0" fitWidth="200.0" layoutX="58.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@учет_ревизии_банковские_расчет_калькулятор_им_значок_PNG___Счет__учет__Добавить_PNG_картинки_и_пнг_рисунок_для_бесплатной_загрузки-removebg-preview.png" />
+                    </image>
+                </ImageView>
+            </children>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </AnchorPane>
+        <AnchorPane prefHeight="400.0" prefWidth="339.0" style="-fx-background-color: white;">
+            <children>
+                <TextField fx:id="tf_email" layoutX="20.0" layoutY="140.0" prefHeight="38.0" prefWidth="294.0" promptText="Email">
+                    <font>
+                        <Font name="Arial" size="12.0" />
+                    </font>
+                </TextField>
+                <PasswordField fx:id="tf_passwordset" layoutX="20.0" layoutY="191.0" prefHeight="38.0" prefWidth="294.0" promptText="Set Password" />
+                <Button fx:id="button_sign_up" layoutX="121.0" layoutY="299.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="122.0" style="-fx-background-color: #FFCA28; -fx-background-color: #FFD54F; -fx-cursor: hand;" text="Sign up" textFill="#0d47a1">
+                    <font>
+                        <Font name="Arial Black" size="12.0" />
+                    </font>
+                </Button>
+                <Label layoutX="25.0" layoutY="39.0" text="Sign up" textFill="#37474f">
+                    <font>
+                        <Font name="Arial Black" size="24.0" />
+                    </font>
+                </Label>
+                <Label layoutX="70.0" layoutY="347.0" style="-fx-background-color: transparent;" text="Already Signed up?" textFill="#37474f">
+                    <font>
+                        <Font name="Arial" size="12.0" />
+                    </font>
+                </Label>
+                <Button fx:id="button_login" layoutX="182.0" layoutY="343.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Log in" textFill="#1327bc" underline="true">
+                    <font>
+                        <Font name="Arial Rounded MT Bold" size="12.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                </Button>
+            <PasswordField fx:id="tf_password1" layoutX="20.0" layoutY="240.0" prefHeight="38.0" prefWidth="294.0" promptText="Confirm Password" />
+            <TextField fx:id="tf_username1" layoutX="20.0" layoutY="90.0" prefHeight="38.0" prefWidth="294.0" promptText="Username">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </TextField>
+            </children>
+        </AnchorPane>
+    </children>
+</HBox>

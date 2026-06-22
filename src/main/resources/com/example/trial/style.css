@@ -1,0 +1,83 @@
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial Black";
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+.button:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+    -fx-text-fill: #FFEB3B;
+    -fx-cursor: hand;
+
+}
+.toggle-button {
+    -fx-background-color: #00ACC1;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial Black";
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+.toggle-button {
+    -fx-background-color: #00ACC1;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial Black";
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+.toggle-button:pressed {
+    -fx-background-color: #0097A7;
+}
+
+
+.toggle-income {
+    -fx-background-color: #00ACC1;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial Black";
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+
+.toggle-expense {
+    -fx-background-color: #00ACC1;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial Black";
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+
+
+.toggle-expense:selected {
+
+    -fx-text-fill: red;
+}
+
+.toggle-income:selected {
+
+    -fx-text-fill: green;
+}
+
+.button_1 {
+    -fx-background-color: #00ACC1;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial Black";
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+.button_1:hover {
+    -fx-background-color: #00ACC1;
+    -fx-text-fill: #FFEB3B;
+    -fx-cursor: hand;
+
+}
