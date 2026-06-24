@@ -134,5 +134,6 @@ mvnw.cmd javafx:run
 ## Author
 
 Hanan Aslam
+Fathima Maha
 
 GitHub: https://github.com/mlb-12
